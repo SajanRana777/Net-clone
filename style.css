@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: row;
   position: relative;
-  align-items: center;
+  
   width: 100%;
   height: 50px;
   min-height: 100px;
@@ -24,6 +24,7 @@ body {
   justify-content: space-between;
   background-color: transparent;
   align-self: center;
+  padding-right: 12px;
 }
 
 .navbar li {
@@ -53,12 +54,12 @@ body {
   align-self: center;
 }
 
-.buttons {
+a {
   background-color: #e50914;
   padding: 7px 17px;
   color: white;
-  display: flex;
-  flex-direction: row;
+  
+  
   border-radius: 3px;
 }
 
@@ -108,11 +109,16 @@ body {
   justify-content: center;
   text-align: left;
   margin-top: 10px;
+  gap: 4px;
+  border: #000;
+  border-radius: 4px;
 }
 
 .box {
   width: 100%;
   min-height: 65px;
+  border: #000;
+  border-radius: 4px;
 }
 
 .try {
@@ -513,6 +519,6 @@ h4 {
     margin-right: 10px;
   }
 }
-.logo{
-    height: 5px;
+.logo img{
+    height:auto;
 }
